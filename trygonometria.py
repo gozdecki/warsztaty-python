@@ -14,7 +14,7 @@ def sin(x):
    return res
 
 
-def cos(x):
+def cos2(x):
    if x == 0:
       res = 1
    elif x == 30:
@@ -29,7 +29,7 @@ def cos(x):
       res = False
    return res
 
-def cos2(x):
+def cos(x):
    return sin(90-x)
 
 def tg(x):
@@ -39,3 +39,4 @@ print(sin(90), sin(45), sin(20))
 print(cos(90), cos(45), cos(20))
 print(cos2(90), cos2(45), cos2(20))
 print(tg(0), tg(45), tg(30))
+print(tg(90))
