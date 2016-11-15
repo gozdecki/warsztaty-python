@@ -32,6 +32,10 @@ def cos(x):
 def cos2(x):
    return sin(90-x)
 
+def tg(x):
+   return sin(x)/cos(x)
+
 print(sin(90), sin(45), sin(20))
 print(cos(90), cos(45), cos(20))
 print(cos2(90), cos2(45), cos2(20))
+print(tg(0), tg(45), tg(30))
