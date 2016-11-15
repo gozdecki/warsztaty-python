@@ -1,7 +1,10 @@
 kol1 = []
 kol2 = []
 
+
+
 for linia in open('reference.csv'):
+#for linia in open('reference{}.csv'.format(i)):
    data = linia.split(',')
    kol1.append(float( data[0]))
    kol2.append(float( data[1]))
@@ -16,3 +19,5 @@ for indeks in range(liczba_lini):
    plik.write(linia)
 
 plik.close()
+
+#explainshell.com
